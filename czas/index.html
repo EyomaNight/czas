@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <script src="moment.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="zegar">
+        <div class="pole">
+            <label for="start"> Start </label>
+            <input type="time" id="start">
+        </div>
+        <div class="pole">
+            <label for="minuty"> Długość </label>
+            <input type="text" id="minuty" value="45">
+        </div>
+        <div class="pole">
+            <label for="koniec"> Koniec </label>
+            <input type="time" id="koniec" readonly>
+        </div>
+        <div class="pole">
+            <label for="pozostalo"> Pozostało </label>
+            <input type="text" id="pozostalo" readonly>
+        </div>
+    </div>
+
+
+    <script src="script.js" defer></script> 
+    <!-- defer opoznia dzialanie skryptu -->
+</body>
+</html>
